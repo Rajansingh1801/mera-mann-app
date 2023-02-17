@@ -11,8 +11,10 @@ import { useCallback } from "react";
 import { useFonts } from "expo-font";
 import React from "react";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
+import { useNavigation } from "@react-navigation/native";
 
 const Setting = () => {
+  const navigation = useNavigation();
   const [fontsLoaded] = useFonts({
     LibreBaskerville_Bold: require("../../assets/font/LibreBaskerville-Bold.ttf"),
     Kalam_Bold: require("../../assets/font/Kalam-Bold.ttf"),
@@ -78,7 +80,11 @@ const Setting = () => {
           <MaterialCommunityIcons name="shield" size={18} style={styles.icon} />
           <Text style={styles.txt}>Privacy</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.btn}>
+        <TouchableOpacity
+          style={styles.btn}
+          // onPress={() => navigation.naviagte("Login")}
+          onPress={() => navigation.navigate("Login")}
+        >
           <MaterialCommunityIcons name="logout" size={18} style={styles.icon} />
           <Text style={styles.txt}>Logout</Text>
         </TouchableOpacity>
