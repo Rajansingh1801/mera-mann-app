@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "TabBottomNav",
-    "slug": "TabBottomNav",
+    "name": "MeraMann",
+    "slug": "MeraMann",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.rajan2802.MeraMann"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "08f045c4-823c-4660-83ee-2f4248083aa6"
+      }
     }
   }
 }
