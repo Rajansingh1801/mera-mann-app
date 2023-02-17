@@ -71,17 +71,16 @@ const Chat = () => {
                         <Text
                           style={{
                             fontSize: 18,
-                            fontWeight: "800",
                             color: "black",
-                            fontFamily: "kalam_regular",
+                            fontFamily: "LibreBaskerville_Bold",
                           }}
                         >
                           {item.userName}
                         </Text>
                         <Text
                           style={{
-                            fontWeight: "900",
-                            fontFamily: "Kalam_Bold",
+                            // fontWeight: "900",
+                            fontFamily: "kalam_regular",
                           }}
                         >
                           {item.message}

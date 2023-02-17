@@ -10,6 +10,7 @@ import {
 import React, { useEffect, useState } from "react";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import { userData } from "../api/userdata";
+import Status from "./status";
 const Home = () => {
   const [ispress, setPress] = useState(false);
   const [count, setCount] = useState(0);
@@ -49,6 +50,7 @@ const Home = () => {
           resizeMode="contain"
         />
       </View>
+      <Status />
       <FlatList
         data={userData}
         scrollEnabled={true}
@@ -147,7 +149,7 @@ const styles = StyleSheet.create({
   },
   img_logo: {
     width: "100%",
-    height: 100,
+    height: 50,
     borderRadius: 50,
   },
   postCont: {

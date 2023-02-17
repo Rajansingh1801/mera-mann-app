@@ -50,9 +50,9 @@ const Find = () => {
                   <Text
                     style={{
                       fontSize: 18,
-                      fontWeight: "800",
+                      // fontWeight: "800",
                       color: "black",
-                      fontFamily: "kalam_regular",
+                      fontFamily: "LibreBaskerville_Bold",
                     }}
                   >
                     {item.userName}
@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
   },
   text_head: {
     fontSize: 32,
-    fontWeight: "900",
+    // fontWeight: "900",
     color: "brown",
     elevation: 15,
     textShadowColor: "white",

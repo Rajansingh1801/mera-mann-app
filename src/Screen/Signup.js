@@ -13,7 +13,7 @@ const Signup = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <ImageBackground
-        source={require("../../assets/images/sign.png")}
+        source={require("../../assets/images/si.png")}
         resizeMode="cover"
         style={styles.image}
       >
@@ -74,13 +74,16 @@ const styles = StyleSheet.create({
     alignItems: "flex-end",
   },
   input: {
-    backgroundColor: "#FBF4E9",
-    borderBottomColor: "#181823",
+    backgroundColor: "#C7B8BF",
+    borderBottomColor: "white",
     borderBottomWidth: 3,
     padding: 5,
     borderTopEndRadius: 8,
     borderTopStartRadius: 8,
     color: "black",
+    // fontWeight: "900",
+    color: "black",
+    fontFamily: "LibreBaskerville_Bold",
   },
   btn: {
     backgroundColor: "black",

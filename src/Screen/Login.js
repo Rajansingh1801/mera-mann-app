@@ -15,6 +15,7 @@ const Login = ({ navigation }) => {
       <ImageBackground
         source={require("../../assets/images/log.png")}
         resizeMode="cover"
+        color="white"
         style={styles.image}
       >
         <View style={{ width: "70%", paddingStart: 10 }}>
@@ -64,13 +65,14 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   input: {
-    backgroundColor: "#FBF4E9",
-    borderBottomColor: "#181823",
-    borderBottomWidth: 3,
+    backgroundColor: "#00337C",
+    borderBottomColor: "#C7B8BF",
+    borderBottomWidth: 2,
     padding: 5,
     borderTopEndRadius: 8,
     borderTopStartRadius: 8,
-    color: "black",
+    color: "white",
+    fontFamily: "LibreBaskerville_Bold",
   },
   btn: {
     backgroundColor: "black",

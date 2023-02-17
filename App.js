@@ -8,8 +8,8 @@ import Link from "./src/route/link";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
-    LibreBaskerville_Bold: require("./assets/font/LibreBaskerville-Bold.ttf"),
     Kalam_Bold: require("./assets/font/Kalam-Bold.ttf"),
+    LibreBaskerville_Bold: require("./assets/font/LibreBaskerville-Bold.ttf"),
     kalam_regular: require("./assets/font/Kalam-Regular.ttf"),
   });
   const onLayoutRootView = useCallback(async () => {
